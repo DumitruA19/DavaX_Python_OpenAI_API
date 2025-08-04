@@ -1,0 +1,28 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite*
+*.log
+
+# Config & secrets
+.env
+.env.*
+
+# Exports
+*.csv
+*.sql
+*.xlsx
+*.json
+
+# IDE
+.vscode/
+.DS_Store
+Thumbs.db

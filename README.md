@@ -41,7 +41,7 @@ sql-assistant-gpt/
 
 - Supports advanced analytical queries with **GROUP BY**, **HAVING**, **JOIN**, **ORDER**, **filters**, and **aggregation**
 - Converts natural questions into optimized SQL using schema-aware prompt templates
-
+- Query history viewer (UI)
 ### ✅ 2. Execute SQL with Safety & Confirmation
 
 - Detects unsafe queries (`UPDATE`/`DELETE` without `WHERE`) and requires explicit confirmation
@@ -156,7 +156,6 @@ npm run dev
 
 ## 🧩 Roadmap Ideas
 
-- 🧾 Query history viewer (UI)
 - 🔐 Role-based frontend with permissions
 - 📊 Visual schema & ERD viewer
 - 🧠 Smart GPT prompt refinement per user context
